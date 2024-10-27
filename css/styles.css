@@ -10967,7 +10967,18 @@ p.lead {
   font-size: 2rem;
 }
 
+.company-logo {
+  width: 55px;
+  height: auto;
+  object-fit: contain;
+  vertical-align: middle;
+}
 
+.subheading.mb-3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
 section.resume-section {
   display: flex;
@@ -11050,3 +11061,5 @@ section.resume-section-superlow .resume-section-content {
     padding-bottom: 0rem;
   }
 }
+
+
